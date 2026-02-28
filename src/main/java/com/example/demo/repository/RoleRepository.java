@@ -1,0 +1,14 @@
+package com.example.demo.repository;
+
+import com.example.demo.constant.RoleName;
+import com.example.demo.model.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Optional;
+import java.util.UUID;
+
+public interface RoleRepository  extends JpaRepository<Role, UUID> {
+
+    Optional<Role> findByName(RoleName roleName);
+
+}
