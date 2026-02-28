@@ -1,9 +1,9 @@
-Manage Requests Backend
+-Manage Requests Backend
 
-Backend được xây dựng bằng Spring Boot.
-Ứng dụng sử dụng MySQL và xác thực bằng JWT.
+-Backend được xây dựng bằng Spring Boot.
+-Ứng dụng sử dụng MySQL và xác thực bằng JWT.
 
-Yêu cầu trước khi chạy
+-Yêu cầu trước khi chạy
 
 Cài đặt Java 17 trở lên
 
@@ -13,7 +13,7 @@ Cài đặt MySQL
 
 Cấu hình Database
 
-Đảm bảo MySQL đang chạy.
+-Đảm bảo MySQL đang chạy.
 
 Kiểm tra lại username và password cho đúng với máy của bạn.
 
@@ -22,14 +22,14 @@ Database fileupload sẽ tự tạo nếu chưa tồn tại.
 Nếu MySQL của bạn có mật khẩu, hãy điền vào:
 
 spring.datasource.password=
-Cấu hình JWT (bắt buộc)
+-Cấu hình JWT (bắt buộc)
 
 Bạn phải tự nhập giá trị cho:
 
 jwt.secretKey=
 jwt.refreshKey=
 
-Cách tải và chạy bằng file ZIP
+-Cách tải và chạy bằng file ZIP
 Bước 1: Tải file ZIP
 
 Vào trang GitHub của project.
@@ -50,4 +50,6 @@ Vào thư mục backend (ví dụ: Manage-Requests-Backend)
 
 Mở thư mục đó bằng IntelliJ hoặc VS Code
 
-Chạy ứng dụng bằng cách chạy file DemoApplication.java
+-Chạy ứng dụng bằng cách chạy file DemoApplication.java
+
+-Đăng nhập bằng tài khoản mẫu có tài khoản và mật khẩu là "adminadmin"
